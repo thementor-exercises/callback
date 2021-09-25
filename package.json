@@ -1,0 +1,22 @@
+{
+  "name": "callback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -o ./public/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thementor-exercises/callback.git"
+  },
+  "author": "TheMentor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thementor-exercises/callback/issues"
+  },
+  "homepage": "https://github.com/thementor-exercises/callback#readme",
+  "devDependencies": {
+    "http-server": "^13.0.2"
+  }
+}
