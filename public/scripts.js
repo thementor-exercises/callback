@@ -11,6 +11,12 @@ xhr.onload = function() {
 
 xhr.send();
 
+/**
+ * Timer function notify each time after timer ticks
+ * @param {function} callback - function which is triggered after each tick
+ * @param {number} timeBetweenTicks - time in miliseconds
+ * @param {number} maxTicks - maximum ticks after which function stops propagate
+ */
 function timer(callback, timeBetweenTicks, maxTicks) {
   let i = 1;
   const interval = setInterval(() => {
